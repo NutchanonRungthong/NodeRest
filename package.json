@@ -1,12 +1,8 @@
 {
-  "name": "noderest",
+  "name": "-NODEJS",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^3.0.2",
-    "prettier": "^3.1.1"
-  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -15,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  },
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
