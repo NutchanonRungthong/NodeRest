@@ -33,7 +33,7 @@ app.get('/books/:id',(req,res)=>{
             res.status(500).send(err)
         }else{
             if(!row){
-                res.status(404).send('Book not fond')
+                res.status(404).send('Book dddnot fond')
             }else{
                 res.json(row)
             }
